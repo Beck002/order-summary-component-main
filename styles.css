@@ -1,0 +1,112 @@
+:root{
+    --font: 'Red Hat Display', sans-serif;
+}
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*, *:before,*::after{
+    box-sizing: inherit;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    background-color: hsl(225, 100%, 94%) ;
+    font-family: var(--font);
+}
+img{
+    width: 25rem;
+    border-radius: 1.5rem 1.5rem 0 0;
+}
+.container{
+    width: 25rem;
+    height: 43rem;
+    background-color: white;
+    border-radius: 1.5rem ;
+}
+.mid-card{
+    margin-top: 3rem;
+}
+.card-title{
+    font-size: 2rem;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+.card-description{
+    color: hsl(224, 23%, 55%);
+    width: 20rem;
+    margin: 0 auto;
+    font-weight: 500;
+}
+.text-center{
+    text-align: center;
+}
+.plan{
+    display: flex;
+    align-items: center;
+    margin: 2rem auto;
+    width: 20rem;
+    height: 7rem;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+}
+.plan img{
+    width: 4rem;
+    height: 4rem;
+    margin: 0 1rem;
+}
+.plan-type{
+    color:hsl(223, 47%, 23%) ;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.plan-price{
+    color:hsl(223, 47%, 23%) ;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-top: -1rem;
+}
+a{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: 2rem;
+    color: hsl(245, 75%, 52%);
+}
+a:hover{
+    color: hsl(224, 23%, 55%);
+}
+.order{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    font-family: var(--font);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    background-color:hsl(245, 75%, 52%) ;
+    width: 20rem;
+    height: 3rem;
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.1rem;  
+}
+input:hover{
+    background-color: hsl(224, 53%, 45%);
+}
+.order a{
+    text-align: center;
+    font-weight: 1rem;
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+}
+.order a:hover{
+    color: hsl(223, 47%, 23%);
+}
